@@ -1,0 +1,29 @@
+.icon::before{
+	width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-size: contain;
+	background-repeat: no-repeat;
+	content: ' ';
+}
+
+.icon.home::before{
+	background-image: url(../image/icon/home-24px.svg);
+}
+.icon.home:hover::before{
+	background-image: url(../image/icon/home-24px_hover.svg);
+}
+
+.icon.about::before{
+	background-image: url(../image/icon/info-24px.svg);
+}
+.icon.about:hover::before{
+	background-image: url(../image/icon/info-24px_hover.svg);
+}
+
+.icon.favorite::before{
+	background-image: url(../image/icon/favorite-24px.svg);
+}
+.icon.favorite:hover::before{
+	background-image: url(../image/icon/favorite-24px_hover.svg);
+}

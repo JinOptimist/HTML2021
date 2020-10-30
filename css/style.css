@@ -1,3 +1,7 @@
+/* main bg #FAEBD7 */
+/* second bg #F5DEB3 */
+/* hover bg #FFFACD*/
+
 @font-face {
   font-family: logoFont;
   src: url(font/TheStrangerBrush.ttf);
@@ -19,7 +23,7 @@
 }
 
 .menu{
-	width: 120px;
+	width: 150px;
 	border: 1px #ccc solid;
 }
 
@@ -28,54 +32,104 @@
 }
 
 .content{
-	background: aqua;
 	flex: 1;
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .menu a{
-	border: 1px #0cc solid;
+	display: flex;
+	align-items: center;
     border-radius: 10px;
     padding: 5px;
-    display: block;
     margin: 5px;
-    background: aqua;
-	text-decoration: none;
+    background: #FAEBD7;	
+	text-transform: uppercase;
 }
 
-.menu a:hover{
-	border: 1px red solid;
+.menu a.icon::before{
+	margin-right: 3px;
 }
 
-.fun{
-	background: green;
+.menu a.useful{
+	box-shadow: 2px 3px black;
+    border-color: blue;
 }
-
 
 .image{
 	margin: 5px;
-	border: 1px #ccc solid;
-    width: 150px;
-    height: 150px;
+	border: 1px #F5DEB3 solid;
+    width: 200px;
+    height: 250px;
+	border-radius: 16px;
+	display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .image .name{
 	display: flex;
 	justify-content: center;
+	border-bottom: 1px #ccc solid;
+    font-size: 20px;
+    font-family: logoFont;
 }
 
 .image .preview{
-	height: calc(150px - 20px);
+	height: calc(200px - 20px);
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 5px 0;
 }
 
 .image .preview img{
-	max-width: 150px;
+	max-width: 200px;
 	max-height: 100%;
 }
+
+.image .buttons{
+	display: flex;
+    justify-content: space-between;
+	border-top: 1px #ccc solid;
+}
+
+.image .buttons .button{
+	display: flex;
+	justify-content: center;
+	flex: 1;
+    padding: 5px;
+	border-left: 1px #ccc solid;
+}
+
+.image .buttons .button:first-child{
+	border-bottom-left-radius: 15px;
+	border-left: 0;
+}
+
+.image .buttons .button:last-child{
+	border-bottom-right-radius: 15px;
+}
+
+.button{
+	border: 1px #F5DEB3 solid;
+    background: #FAEBD7;
+	text-decoration: none;
+}
+
+.button:hover{
+	background: #FFFACD;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
