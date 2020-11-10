@@ -1,0 +1,125 @@
+header{
+	font-size: 40px;
+    display: flex;
+    justify-content: center;
+    background: aliceblue;
+    height: 70px;
+    align-items: center;
+}
+
+div {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+img{
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.parent{
+	display: flex;
+}
+
+.top{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.button{
+	background: #ccc;
+    border: 1px red solid;
+    border-radius: 10px;
+    padding: 2px 7px;
+    margin: 3px;
+    display: block;
+}
+
+.right-text{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.right-text .tip {
+    border: 1px #ccc solid;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 3px 7px;
+}
+
+.right-text .blokV2.tip{
+	width: 300px;
+    height: 265px;
+    margin: 5px;
+    padding: 2px;
+}
+.buttons{
+	display: flex;
+}
+
+.button{
+	flex: 1;
+	display: flex;
+	justify-content: center;
+}
+.name{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	border: 1px #ccc solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.images{
+	display: flex;
+}
+.image-container{
+	flex: 1;
+	border: 1px #ccc solid;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	margin: 2px;
+	margin-bottom: 0;
+}
+.image-container:first-child{
+	margin-left:0;
+}
+.image-container:last-child{
+	margin-right:0;
+}
+.images img{
+	max-width: 130px;
+	max-height: 202px;
+}
+
+.buttons .button{
+	border-radius:0;
+	margin:2px;
+}
+.buttons .button:first-child{
+	border-bottom-left-radius: 10px;
+	margin-left: 0;
+}
+
+.buttons .button:last-child{
+	border-bottom-right-radius: 10px;
+	margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
