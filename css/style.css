@@ -22,19 +22,12 @@
 	max-height: 30px;
 }
 
-.menu{
-	width: 150px;
-	border: 1px #ccc solid;
-}
-
 .center-block{
 	display: flex;
 }
 
 .content{
 	flex: 1;
-	display: flex;
-	flex-wrap: wrap;
 }
 
 .menu a{
@@ -59,8 +52,8 @@
 .image{
 	margin: 5px;
 	border: 1px #F5DEB3 solid;
-    width: 200px;
-    height: 250px;
+    width: 400px;
+    height: 500px;
 	border-radius: 16px;
 	display: flex;
     justify-content: space-between;
@@ -76,15 +69,19 @@
 }
 
 .image .preview{
-	height: calc(200px - 20px);
+	
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 5px 0;
+	
+	overflow: hidden;
+    width: 100%;
+    height: 100%;
 }
 
 .image .preview img{
-	max-width: 200px;
+	max-width: 100%;
 	max-height: 100%;
 }
 
@@ -121,14 +118,72 @@
 	background: #FFFACD;
 }
 
+.go-up{
+	font-size: 30px;
+	color: red;
+	position: fixed;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    align-items: flex-end;
+}
 
+.image:target{
+	background: aqua;
+}
 
+.page{
+	display: none;
+    flex-wrap: wrap;
+}
 
+.page:target{
+	display: flex;
+}
 
+.images-container{
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+}
 
+#gallery{
+	justify-content: flex-end;
+}
+#gallery .icon.up::before{
+	width: 120px;
+    height: 120px;
+}
+.menu{
+	width: 70px;
+	border: 1px #ccc solid;
+	min-height: 500px;
+}
+.menu a{
+	width: 45px;
+}
 
+.menu .links:hover a{
+	width: 140px;
+}
 
+.links{
+	position: fixed;
+	width: 65px;
+	overflow: hidden;
+}
 
+.links:hover{
+	width: 160px;
+}
+
+.links .button span{
+	display: none;
+}
+
+.links:hover .button span{
+	display: block;
+}
 
 
 
