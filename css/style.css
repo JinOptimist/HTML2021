@@ -185,6 +185,73 @@
 	display: block;
 }
 
+.user-name{
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+}
+
+input{
+	
+}
+
+input:focus{
+	background: #ccc;
+}
+
+input[type=radio]{
+	width: 15px;
+	height: 15px;
+}
+
+input[type=radio]:checked{
+	width: 25px;
+	height: 25px;
+}
+
+td{
+	border: 1px #ccc solid;
+}
+
+table tr:first-child td{
+	font-weight: bold;
+}
+
+table tr:first-child{
+	background: #ccc;
+}
+
+table tr:nth-child(2n + 1){
+	background: #ccc;
+}
+
+table tr:last-child td{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+table tr:hover{
+	background: #5cc;	
+}
+
+table tr:last-child td:nth-child(1),
+table tr:last-child td:nth-child(3){
+	text-align: center;
+}
+
+#about-us > div{
+	width: 100%;
+}
+
+#about-us table{
+	width: 100%;
+}
+
+
+
+
+
+
 
 
 
