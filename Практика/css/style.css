@@ -50,12 +50,14 @@ img{
     padding: 3px 7px;
 }
 
-.right-text .blokV2.tip{
-	width: 300px;
-    height: 265px;
+.blokV2.tip{
+	width: 400px;
+    height: 400px;
     margin: 5px;
     padding: 2px;
 	background: deepskyblue;
+	display: flex;
+    flex-direction: column;
 }
 .buttons{
 	display: flex;
@@ -78,6 +80,7 @@ img{
 }
 .images{
 	display: flex;
+	flex: 1;
 }
 .image-container{
 	flex: 1;
@@ -113,6 +116,71 @@ img{
 	border-bottom-right-radius: 10px;
 	margin-right: 0;
 }
+
+.right-text .blokV2.tip.horizontal{
+	flex-direction: row;
+}
+
+.right-text .vertical{
+	flex-direction: column;
+}
+
+.column{
+	flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: aliceblue;
+    margin: 2px;
+    border-radius: 5px;
+}
+.right-text .row
+{
+	display: flex;
+	flex: 1;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+	background: antiquewhite;
+    margin: 2px;
+    border-radius: 5px;
+}
+   
+
+.column img,
+.row img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.cell{
+	
+	height: 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.card{
+	width: 500px;
+	height: 500px;
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
