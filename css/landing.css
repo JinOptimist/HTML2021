@@ -1,0 +1,132 @@
+@font-face {
+  font-family: logoFont;
+  src: url(font/TheStrangerBrush.ttf);
+}
+a{
+	text-decoration: none;
+}
+
+.page{
+	font-size: 45px;
+	font-family: logoFont;
+	height: 600px;
+	background: aqua;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	/* background-size: cover; */
+}
+
+.count{
+	font-size: 60px;
+	font-family: arial;
+}
+
+.main-info{
+	background-image: url(../image/leda1.jpg);
+	height: 437px;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+	color: rebeccapurple;
+}
+.page a{
+	color: azure;
+}
+    
+.additional-info{
+	display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.additional-info a{
+	color: brown;
+}
+
+.count-info{
+	background-image: url('../image/Lingeria 9.jpg');
+	height: 725px;
+}
+
+.login{
+	background-image: url('../image/Lingeria10.jpg');
+	height: 725px;
+	background-size: cover;
+}
+
+.page a{
+	/* background: rgba(250, 235, 215, 0.7); */
+	background: rgba(250, 0, 215, 0.6);
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.delimetr{
+	position: relative;
+    top: -15;
+	display: flex;
+    justify-content: center;
+}
+.delimetr span{
+	display: flex;
+	width: 150px;
+	height: 30px;
+	background: rgba(10,10,60,0.5);	
+	border-radius: 5px;    
+	color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pin{
+	position: fixed;
+	height: 100vh;
+	top: 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+.buttons{
+	display: flex;
+    flex-direction: column;
+    margin: 10px;
+	background: rgba(0,0,0,0.1);
+    border-radius: 20px;
+}
+
+.buttons a{
+	margin: 5px;
+}
+
+.buttons img{
+	max-width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
