@@ -61,6 +61,7 @@ img{
 }
 .buttons{
 	display: flex;
+	height: 28px;
 }
 
 .button{
@@ -91,6 +92,8 @@ img{
 	margin: 2px;
 	margin-bottom: 0;
 	background: #fff;
+	
+	position: relative;/* Это раз */
 }
 .image-container:first-child{
 	margin-left:0;
@@ -99,8 +102,13 @@ img{
 	margin-right:0;
 }
 .images img{
-	max-width: 130px;
-	max-height: 202px;
+	max-width: 100%;
+	max-height: 100%;
+	/* Это Два */
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .buttons .button{
@@ -133,7 +141,7 @@ img{
     background: aliceblue;
     margin: 2px;
     border-radius: 5px;
-	height: 100%;
+	height: calc(100% - 2px * 2); 
 }
 .right-text .row
 {
