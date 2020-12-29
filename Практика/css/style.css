@@ -133,6 +133,7 @@ img{
     background: aliceblue;
     margin: 2px;
     border-radius: 5px;
+	height: 100%;
 }
 .right-text .row
 {
