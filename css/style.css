@@ -247,6 +247,10 @@ table tr:last-child td:nth-child(3){
 	width: 100%;
 }
 
+.avatar img{
+	max-width: 200px;
+}
+
 
 
 
